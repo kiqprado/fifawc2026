@@ -1,0 +1,62 @@
+[
+  { 
+    "id": "A", 
+    "name": "Group A", 
+    "teams": ["mx", "kr", "za"] 
+  },
+  { 
+    "id": "B", 
+    "name": "Group B", 
+    "teams": ["ca", "ch", "qa"] 
+  },
+  { 
+    "id": "C", 
+    "name": "Group C", 
+    "teams": ["br", "ht", "gb-sct", "ma"] 
+  },
+  { 
+    "id": "D", 
+    "name": "Group D", 
+    "teams": ["us", "py", "au"] 
+  },
+  { 
+    "id": "E", 
+    "name": "Group E", 
+    "teams": ["ec", "de", "cw", "ci"] 
+  },
+  { 
+    "id": "F", 
+    "name": "Group F", 
+    "teams": ["nl", "jp", "tn"] 
+  },
+  { 
+    "id": "G", 
+    "name": "Group G", 
+    "teams": ["be", "ir", "nz", "eg"] 
+  },
+  { 
+    "id": "H", 
+    "name": "Group H", 
+    "teams": ["uy", "es", "sa", "cv"] 
+  },
+  { 
+    "id": "I", 
+    "name": "Group I", 
+    "teams": ["fr", "no", "sn"] 
+  },
+  { 
+    "id": "J", 
+    "name": "Group J", 
+    "teams": ["ar", "at", "jo", "dz"] 
+  },
+  { 
+    "id": "K", 
+    "name": "Group K", 
+    "teams": ["co", "pt", "uz"] 
+  },
+  { 
+    "id": "L", 
+    "name": "Group L", 
+    "teams": ["pa", "gb-eng", "hr", "gh"] 
+  }
+]

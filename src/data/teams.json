@@ -1,0 +1,340 @@
+[
+  {
+    "id": 1,
+    "identifier": "USA",
+    "name": "United States",
+    "flagCode": "us",
+    "about": "Host nation and co-host of 2026 World Cup.",
+    "group": "D"
+  },
+  {
+    "id": 2,
+    "identifier": "CAN",
+    "name": "Canada",
+    "flagCode": "ca",
+    "about": "Host nation, qualified automatically for the 2026 World Cup.",
+    "group": "B"
+  },
+  {
+    "id": 3,
+    "identifier": "MEX",
+    "name": "Mexico",
+    "flagCode": "mx",
+    "about": "Host nation and co-host of 2026 World Cup.",
+    "group": "A"
+  },
+  {
+  "id": 4,
+  "identifier": "PAN",
+  "name": "Panama",
+  "flagCode": "pa",
+  "about": "CONCACAF qualified team.",
+  "group": "L"
+  },
+  {
+    "id": 5,
+    "identifier": "ARG",
+    "name": "Argentina",
+    "flagCode": "ar",
+    "about": "CONMEBOL qualified team; winners of the 2022 World Cup.",
+    "group": "J"
+  },
+  {
+    "id": 6,
+    "identifier": "BRA",
+    "name": "Brazil",
+    "flagCode": "br",
+    "about": "CONMEBOL qualified team; five-time World Cup champions.",
+    "group": "C"
+  },
+  {
+    "id": 7,
+    "identifier": "COL",
+    "name": "Colombia",
+    "flagCode": "co",
+    "about": "Qualified via CONMEBOL qualifying.",
+    "group": "K"
+  },
+  {
+    "id": 8,
+    "identifier": "ECU",
+    "name": "Ecuador",
+    "flagCode": "ec",
+    "about": "Qualified via CONMEBOL qualifying.",
+    "group": "E"
+  },
+  {
+    "id": 9,
+    "identifier": "HAI",
+    "name": "Haiti",
+    "flagCode": "ht",
+    "about": "Qualified via CONMEBOL qualifying.",
+    "group": "C"
+  },
+
+  {
+    "id": 10,
+    "identifier": "URY",
+    "name": "Uruguay",
+    "flagCode": "uy",
+    "about": "Qualified via CONMEBOL qualifying.",
+    "group": "H"
+  },
+  {
+    "id": 11,
+    "identifier": "PAR",
+    "name": "Paraguay",
+    "flagCode": "py",
+    "about": "Qualified via CONMEBOL qualifying.",
+    "group": "D"
+  },
+  {
+    "id": 12,
+    "identifier": "ENG",
+    "name": "England",
+    "flagCode": "gb-eng",
+    "about": "UEFA qualified team.",
+    "group": "L"
+  },
+  {
+    "id": 13,
+    "identifier": "FRA",
+    "name": "France",
+    "flagCode": "fr",
+    "about": "UEFA qualified team.",
+    "group": "I"
+  },
+  {
+    "id": 14,
+    "identifier": "ESP",
+    "name": "Spain",
+    "flagCode": "es",
+    "about": "UEFA qualified team.",
+    "group": "H"
+  },
+  {
+  "id": 15,
+  "identifier": "CRO",
+  "name": "Croatia",
+  "flagCode": "hr",
+  "about": "CONCACAF qualified team.",
+  "group": "L"
+  },
+  {
+    "id": 16,
+    "identifier": "GER",
+    "name": "Germany",
+    "flagCode": "de",
+    "about": "UEFA qualified team.",
+    "group": "E"
+  },
+  {
+    "id": 17,
+    "identifier": "POR",
+    "name": "Portugal",
+    "flagCode": "pt",
+    "about": "UEFA qualified team.",
+    "group": "K"
+  },
+  {
+    "id": 18,
+    "identifier": "NED",
+    "name": "Netherlands",
+    "flagCode": "nl",
+    "about": "UEFA qualified team.",
+    "group": "F"
+  },
+  {
+    "id": 19,
+    "identifier": "BEL",
+    "name": "Belgium",
+    "flagCode": "be",
+    "about": "UEFA qualified team.",
+    "group": "G"
+  },
+  {
+    "id": 20,
+    "identifier": "AUT",
+    "name": "Austria",
+    "flagCode": "at",
+    "about": "UEFA qualified team.",
+    "group": "J"
+  },
+  {
+    "id": 21,
+    "identifier": "SCO",
+    "name": "Scotland",
+    "flagCode": "gb-sct",
+    "about": "UEFA qualified team.",
+    "group": "C"
+  },
+  {
+    "id": 22,
+    "identifier": "SUI",
+    "name": "Switzerland",
+    "flagCode": "ch",
+    "about": "UEFA qualified team.",
+    "group": "B"
+  },
+  {
+  "id": 23,
+  "identifier": "NRW",
+  "name": "Norway",
+  "flagCode": "no",
+  "about": "CONCACAF qualified team.",
+  "group": "I"
+  },
+  {
+    "id": 24,
+    "identifier": "AUS",
+    "name": "Australia",
+    "flagCode": "au",
+    "about": "AFC qualified team.",
+    "group": "D"
+  },
+  {
+    "id": 25,
+    "identifier": "JPN",
+    "name": "Japan",
+    "flagCode": "jp",
+    "about": "AFC qualified team.",
+    "group": "F"
+  },
+  {
+    "id": 26,
+    "identifier": "KOR",
+    "name": "South Korea",
+    "flagCode": "kr",
+    "about": "AFC qualified team.",
+    "group": "A"
+  },
+  {
+    "id": 27,
+    "identifier": "IRN",
+    "name": "Iran",
+    "flagCode": "ir",
+    "about": "AFC qualified team.",
+    "group": "G"
+  },
+  {
+    "id": 28,
+    "identifier": "JOR",
+    "name": "Jordan",
+    "flagCode": "jo",
+    "about": "AFC qualified team (first World Cup qualification).",
+    "group": "J"
+  },
+  {
+    "id": 29,
+    "identifier": "UZB",
+    "name": "Uzbekistan",
+    "flagCode": "uz",
+    "about": "AFC qualified team (first World Cup qualification).",
+    "group": "K"
+  },
+  {
+    "id": 30,
+    "identifier": "QAT",
+    "name": "Qatar",
+    "flagCode": "qa",
+    "about": "AFC qualified team.",
+    "group": "B"
+  },
+  {
+    "id": 31,
+    "identifier": "KSA",
+    "name": "Saudi Arabia",
+    "flagCode": "sa",
+    "about": "AFC qualified team.",
+    "group": "H"
+  },
+  {
+    "id": 32,
+    "identifier": "NZE",
+    "name": "New Zealand",
+    "flagCode": "nz",
+    "about": "OFC qualified team.",
+    "group": "G"
+  },
+  {
+    "id": 33,
+    "identifier": "ALG",
+    "name": "Algeria",
+    "flagCode": "dz",
+    "about": "CAF qualified team.",
+    "group": "J"
+  },
+  {
+    "id": 34,
+    "identifier": "CPV",
+    "name": "Cape Verde",
+    "flagCode": "cv",
+    "about": "CAF qualified team (debut).",
+    "group": "H"
+  },
+  {
+    "id": 35,
+    "identifier": "CUW",
+    "name": "Curaçao",
+    "flagCode": "cw",
+    "about": "CONCACAF qualified team.",
+    "group": "E"
+  },
+  {
+    "id": 36,
+    "identifier": "EGY",
+    "name": "Egypt",
+    "flagCode": "eg",
+    "about": "CAF qualified team.",
+    "group": "G"
+  },
+  {
+    "id": 37,
+    "identifier": "GHA",
+    "name": "Ghana",
+    "flagCode": "gh",
+    "about": "CAF qualified team.",
+    "group": "L"
+  },
+  {
+    "id": 38,
+    "identifier": "CIV",
+    "name": "Ivory Coast",
+    "flagCode": "ci",
+    "about": "CAF qualified team.",
+    "group": "E"
+  },
+  {
+    "id": 39,
+    "identifier": "MAR",
+    "name": "Morocco",
+    "flagCode": "ma",
+    "about": "CAF qualified team.",
+    "group": "C"
+  },
+  {
+    "id": 40,
+    "identifier": "SEN",
+    "name": "Senegal",
+    "flagCode": "sn",
+    "about": "CAF qualified team.",
+    "group": "I"
+  },
+  {
+    "id": 41,
+    "identifier": "ZAF",
+    "name": "South Africa",
+    "flagCode": "za",
+    "about": "CAF qualified team.",
+    "group": "A"
+  },
+  {
+    "id": 42,
+    "identifier": "TUN",
+    "name": "Tunisia",
+    "flagCode": "tn",
+    "about": "CAF qualified team.",
+    "group": "F"
+  }
+]
+
