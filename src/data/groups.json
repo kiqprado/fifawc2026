@@ -1,62 +1,116 @@
 [
-  { 
-    "id": "A", 
-    "name": "Group A", 
-    "teams": ["mx", "kr", "za"] 
+  {
+    "id": "A",
+    "name": "Group A",
+    "teams": [
+      { "code": "mx", "teamName": "Mexico" },
+      { "code": "kr", "teamName": "South Korea" },
+      { "code": "za", "teamName": "South Africa" }
+    ]
   },
-  { 
-    "id": "B", 
-    "name": "Group B", 
-    "teams": ["ca", "ch", "qa"] 
+  {
+    "id": "B",
+    "name": "Group B",
+    "teams": [
+      { "code": "ca", "teamName": "Canada" },
+      { "code": "ch", "teamName": "Switzerland" },
+      { "code": "qa", "teamName": "Qatar" }
+    ]
   },
-  { 
-    "id": "C", 
-    "name": "Group C", 
-    "teams": ["br", "ht", "gb-sct", "ma"] 
+  {
+    "id": "C",
+    "name": "Group C",
+    "teams": [
+      { "code": "br", "teamName": "Brazil" },
+      { "code": "ht", "teamName": "Haiti" },
+      { "code": "gb-sct", "teamName": "Scotland" },
+      { "code": "ma", "teamName": "Morocco" }
+    ]
   },
-  { 
-    "id": "D", 
-    "name": "Group D", 
-    "teams": ["us", "py", "au"] 
+  {
+    "id": "D",
+    "name": "Group D",
+    "teams": [
+      { "code": "us", "teamName": "United States" },
+      { "code": "py", "teamName": "Paraguay" },
+      { "code": "au", "teamName": "Australia" }
+    ]
   },
-  { 
-    "id": "E", 
-    "name": "Group E", 
-    "teams": ["ec", "de", "cw", "ci"] 
+  {
+    "id": "E",
+    "name": "Group E",
+    "teams": [
+      { "code": "ec", "teamName": "Ecuador" },
+      { "code": "de", "teamName": "Germany" },
+      { "code": "cw", "teamName": "Curaçao" },
+      { "code": "ci", "teamName": "Ivory Coast" }
+    ]
   },
-  { 
-    "id": "F", 
-    "name": "Group F", 
-    "teams": ["nl", "jp", "tn"] 
+  {
+    "id": "F",
+    "name": "Group F",
+    "teams": [
+      { "code": "nl", "teamName": "Netherlands" },
+      { "code": "jp", "teamName": "Japan" },
+      { "code": "tn", "teamName": "Tunisia" }
+    ]
   },
-  { 
-    "id": "G", 
-    "name": "Group G", 
-    "teams": ["be", "ir", "nz", "eg"] 
+  {
+    "id": "G",
+    "name": "Group G",
+    "teams": [
+      { "code": "be", "teamName": "Belgium" },
+      { "code": "ir", "teamName": "Iran" },
+      { "code": "nz", "teamName": "New Zealand" },
+      { "code": "eg", "teamName": "Egypt" }
+    ]
   },
-  { 
-    "id": "H", 
-    "name": "Group H", 
-    "teams": ["uy", "es", "sa", "cv"] 
+  {
+    "id": "H",
+    "name": "Group H",
+    "teams": [
+      { "code": "uy", "teamName": "Uruguay" },
+      { "code": "es", "teamName": "Spain" },
+      { "code": "sa", "teamName": "Saudi Arabia" },
+      { "code": "cv", "teamName": "Cape Verde" }
+    ]
   },
-  { 
-    "id": "I", 
-    "name": "Group I", 
-    "teams": ["fr", "no", "sn"] 
+  {
+    "id": "I",
+    "name": "Group I",
+    "teams": [
+      { "code": "fr", "teamName": "France" },
+      { "code": "no", "teamName": "Norway" },
+      { "code": "sn", "teamName": "Senegal" }
+    ]
   },
-  { 
-    "id": "J", 
-    "name": "Group J", 
-    "teams": ["ar", "at", "jo", "dz"] 
+  {
+    "id": "J",
+    "name": "Group J",
+    "teams": [
+      { "code": "ar", "teamName": "Argentina" },
+      { "code": "at", "teamName": "Austria" },
+      { "code": "jo", "teamName": "Jordan" },
+      { "code": "dz", "teamName": "Algeria" }
+    ]
   },
-  { 
-    "id": "K", 
-    "name": "Group K", 
-    "teams": ["co", "pt", "uz"] 
+  {
+    "id": "K",
+    "name": "Group K",
+    "teams": [
+      { "code": "co", "teamName": "Colombia" },
+      { "code": "pt", "teamName": "Portugal" },
+      { "code": "uz", "teamName": "Uzbekistan" }
+    ]
   },
-  { 
-    "id": "L", 
-    "name": "Group L", 
-    "teams": ["pa", "gb-eng", "hr", "gh"] 
+  {
+    "id": "L",
+    "name": "Group L",
+    "teams": [
+      { "code": "pa", "teamName": "Panama" },
+      { "code": "gb-eng", "teamName": "England" },
+      { "code": "hr", "teamName": "Croatia" },
+      { "code": "gh", "teamName": "Ghana" }
+    ]
   }
 ]

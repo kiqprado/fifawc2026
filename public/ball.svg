@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ballShadow" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.4"/>
+    </radialGradient>
+    
+    <linearGradient id="triOndaPattern" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fbff" /> <stop offset="50%" stop-color="#ff0055" /> <stop offset="100%" stop-color="#ffee00" /> </linearGradient>
+
+    <clipPath id="ballClip">
+      <circle cx="100" cy="100" r="95" />
+    </clipPath>
+  </defs>
+
+  <circle cx="100" cy="100" r="95" fill="#f4f4f4" stroke="#ddd" stroke-width="1"/>
+
+  <g clip-path="url(#ballClip)">
+    <g id="panels">
+      <path d="M30,100 Q65,50 100,50 Q135,50 170,100 Q135,150 100,150 Q65,150 30,100" 
+            fill="none" stroke="url(#triOndaPattern)" stroke-width="8" opacity="0.8"/>
+      
+      <path d="M10,80 C50,70 150,70 190,80" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="5,3"/>
+      <path d="M10,120 C50,130 150,130 190,120" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="5,3"/>
+      
+      <circle cx="100" cy="100" r="15" fill="#111"/>
+      <text x="100" y="105" font-family="Arial" font-size="6" fill="white" text-anchor="middle" font-weight="bold">2026</text>
+    </g>
+  </g>
+
+  <circle cx="100" cy="100" r="95" fill="url(#ballShadow)" pointer-events="none"/>
+</svg>

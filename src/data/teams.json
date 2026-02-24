@@ -4,7 +4,7 @@
     "identifier": "USA",
     "name": "United States",
     "flagCode": "us",
-    "about": "Host nation and co-host of 2026 World Cup.",
+    "about": "Co-host of the 2026 World Cup, the United States returns as a rising football nation with growing MLS influence and strong youth development. The team reached the 2002 quarterfinals and continues investing heavily in global competitiveness.",
     "group": "D"
   },
   {
@@ -12,7 +12,7 @@
     "identifier": "CAN",
     "name": "Canada",
     "flagCode": "ca",
-    "about": "Host nation, qualified automatically for the 2026 World Cup.",
+    "about": "Canada hosts its first men’s World Cup matches in 2026 after a historic modern resurgence. Powered by a new golden generation, the team qualified impressively for Qatar 2022, signaling its emergence as a serious CONCACAF contender.",
     "group": "B"
   },
   {
@@ -20,23 +20,23 @@
     "identifier": "MEX",
     "name": "Mexico",
     "flagCode": "mx",
-    "about": "Host nation and co-host of 2026 World Cup.",
+    "about": "Mexico becomes the first nation to host three World Cups, reinforcing its deep football culture. Known for passionate supporters and consistent knockout-stage appearances, El Tri remains one of the most experienced teams in tournament history.",
     "group": "A"
   },
   {
-  "id": 4,
-  "identifier": "PAN",
-  "name": "Panama",
-  "flagCode": "pa",
-  "about": "CONCACAF qualified team.",
-  "group": "L"
+    "id": 4,
+    "identifier": "PAN",
+    "name": "Panama",
+    "flagCode": "pa",
+    "about": "Panama continues building on its historic 2018 World Cup debut, marking a golden era for the nation. Strong defensive organization and disciplined play have turned the team into a competitive force within CONCACAF qualifying cycles.",
+    "group": "L"
   },
   {
     "id": 5,
     "identifier": "ARG",
     "name": "Argentina",
     "flagCode": "ar",
-    "about": "CONMEBOL qualified team; winners of the 2022 World Cup.",
+    "about": "Reigning world champions after their triumph in Qatar 2022, Argentina blends historic legacy with modern tactical identity. With multiple titles and legendary players across generations, La Albiceleste remains a perennial favorite.",
     "group": "J"
   },
   {
@@ -44,7 +44,7 @@
     "identifier": "BRA",
     "name": "Brazil",
     "flagCode": "br",
-    "about": "CONMEBOL qualified team; five-time World Cup champions.",
+    "about": "The only nation to appear in every World Cup, Brazil holds a record five titles and a tradition of attacking brilliance. Famous for producing iconic talents, the Seleção continues to symbolize creativity and excellence in global football.",
     "group": "C"
   },
   {
@@ -52,7 +52,7 @@
     "identifier": "COL",
     "name": "Colombia",
     "flagCode": "co",
-    "about": "Qualified via CONMEBOL qualifying.",
+    "about": "Colombia returns with its characteristic technical style and passionate fan base. The team achieved its best result in 2014 by reaching the quarterfinals and remains known for dynamic attacking play and strong performances in South America.",
     "group": "K"
   },
   {
@@ -60,7 +60,7 @@
     "identifier": "ECU",
     "name": "Ecuador",
     "flagCode": "ec",
-    "about": "Qualified via CONMEBOL qualifying.",
+    "about": "Ecuador has become one of South America’s most physically intense teams, combining altitude-conditioned endurance with emerging young talent. Consistent recent qualifications highlight its evolution into a competitive CONMEBOL side.",
     "group": "E"
   },
   {
@@ -68,16 +68,15 @@
     "identifier": "HAI",
     "name": "Haiti",
     "flagCode": "ht",
-    "about": "Qualified via CONMEBOL qualifying.",
+    "about": "Haiti reaches a historic milestone with qualification, showcasing rapid football development and resilience. Known for speed and attacking ambition, the team represents one of the most inspiring growth stories in international football.",
     "group": "C"
   },
-
   {
     "id": 10,
     "identifier": "URY",
     "name": "Uruguay",
     "flagCode": "uy",
-    "about": "Qualified via CONMEBOL qualifying.",
+    "about": "Two-time world champions and one of football’s historic pioneers, Uruguay blends tradition with a new generation of talent. Famous for competitive spirit and tactical discipline, La Celeste consistently punches above its population size.",
     "group": "H"
   },
   {
@@ -85,7 +84,7 @@
     "identifier": "PAR",
     "name": "Paraguay",
     "flagCode": "py",
-    "about": "Qualified via CONMEBOL qualifying.",
+    "about": "Paraguay returns to the global stage known for defensive solidity and collective organization. The team reached the 2010 quarterfinals and has historically challenged stronger nations through resilience and tactical discipline.",
     "group": "D"
   },
   {
@@ -93,7 +92,7 @@
     "identifier": "ENG",
     "name": "England",
     "flagCode": "gb-eng",
-    "about": "UEFA qualified team.",
+    "about": "World champions in 1966, England combines historic prestige with a modern generation of elite players competing in top European leagues. Recent deep tournament runs reflect renewed optimism around the Three Lions’ international ambitions.",
     "group": "L"
   },
   {
@@ -101,7 +100,7 @@
     "identifier": "FRA",
     "name": "France",
     "flagCode": "fr",
-    "about": "UEFA qualified team.",
+    "about": "One of football’s modern powerhouses, France has won multiple World Cups and reached consecutive finals in recent editions. Renowned for elite academies and tactical depth, Les Bleus consistently produce world-class talent.",
     "group": "I"
   },
   {
@@ -109,23 +108,23 @@
     "identifier": "ESP",
     "name": "Spain",
     "flagCode": "es",
-    "about": "UEFA qualified team.",
+    "about": "Champions in 2010, Spain revolutionized football with possession-based dominance. Known for technical precision and academy development, La Roja continues rebuilding with a new generation aiming to restore its golden-era success.",
     "group": "H"
   },
   {
-  "id": 15,
-  "identifier": "CRO",
-  "name": "Croatia",
-  "flagCode": "hr",
-  "about": "CONCACAF qualified team.",
-  "group": "L"
+    "id": 15,
+    "identifier": "CRO",
+    "name": "Croatia",
+    "flagCode": "hr",
+    "about": "A nation of remarkable consistency, Croatia reached the 2018 final and finished third in 2022. Despite its small population, the team excels through tactical intelligence, midfield quality, and strong tournament mentality.",
+    "group": "L"
   },
   {
     "id": 16,
     "identifier": "GER",
     "name": "Germany",
     "flagCode": "de",
-    "about": "UEFA qualified team.",
+    "about": "Four-time world champions, Germany remains synonymous with efficiency and tournament pedigree. Known for structured play and relentless competitiveness, Die Mannschaft continues rebuilding while maintaining elite international standards.",
     "group": "E"
   },
   {
@@ -133,7 +132,7 @@
     "identifier": "POR",
     "name": "Portugal",
     "flagCode": "pt",
-    "about": "UEFA qualified team.",
+    "about": "Portugal blends technical excellence with tactical flexibility, highlighted by its Euro 2016 triumph. A steady producer of elite talent, the nation consistently competes deep into tournaments with an evolving attacking identity.",
     "group": "K"
   },
   {
@@ -141,7 +140,7 @@
     "identifier": "NED",
     "name": "Netherlands",
     "flagCode": "nl",
-    "about": "UEFA qualified team.",
+    "about": "Famous for Total Football philosophy, the Netherlands has reached multiple World Cup finals despite never winning the title. Oranje remains admired worldwide for tactical innovation and commitment to attacking football principles.",
     "group": "F"
   },
   {
@@ -149,7 +148,7 @@
     "identifier": "BEL",
     "name": "Belgium",
     "flagCode": "be",
-    "about": "UEFA qualified team.",
+    "about": "Belgium’s golden generation elevated the nation to consistent top FIFA rankings, highlighted by a third-place finish in 2018. Known for technical versatility and attacking creativity, the Red Devils remain dangerous opponents.",
     "group": "G"
   },
   {
@@ -157,7 +156,7 @@
     "identifier": "AUT",
     "name": "Austria",
     "flagCode": "at",
-    "about": "UEFA qualified team.",
+    "about": "Austria’s resurgence reflects strong tactical organization and improved youth development. Historically competitive in Europe, the team now seeks to translate consistent qualification performances into deeper World Cup runs.",
     "group": "J"
   },
   {
@@ -165,7 +164,7 @@
     "identifier": "SCO",
     "name": "Scotland",
     "flagCode": "gb-sct",
-    "about": "UEFA qualified team.",
+    "about": "Scotland returns driven by passionate supporters and a proud football tradition. Known for intensity and collective spirit, the national team aims to build on renewed competitiveness after decades away from major tournaments.",
     "group": "C"
   },
   {
@@ -173,23 +172,23 @@
     "identifier": "SUI",
     "name": "Switzerland",
     "flagCode": "ch",
-    "about": "UEFA qualified team.",
+    "about": "Switzerland has become one of Europe’s most consistent teams, regularly advancing from group stages. Built on defensive organization and disciplined structure, the squad combines experience with technically refined players.",
     "group": "B"
   },
   {
-  "id": 23,
-  "identifier": "NRW",
-  "name": "Norway",
-  "flagCode": "no",
-  "about": "CONCACAF qualified team.",
-  "group": "I"
+    "id": 23,
+    "identifier": "NRW",
+    "name": "Norway",
+    "flagCode": "no",
+    "about": "Norway returns to the World Cup spotlight with a new generation of attacking stars. Historically competitive in the 1990s, the nation now seeks to reestablish itself globally through physical strength and modern tactical evolution.",
+    "group": "I"
   },
   {
     "id": 24,
     "identifier": "AUS",
     "name": "Australia",
     "flagCode": "au",
-    "about": "AFC qualified team.",
+    "about": "Australia continues its strong AFC era after memorable knockout-stage appearances. Known for resilience and physical intensity, the Socceroos consistently exceed expectations through collective organization and fighting spirit.",
     "group": "D"
   },
   {
@@ -197,7 +196,7 @@
     "identifier": "JPN",
     "name": "Japan",
     "flagCode": "jp",
-    "about": "AFC qualified team.",
+    "about": "Japan stands among Asia’s most technically refined teams, famous for discipline and tactical execution. Historic wins over major nations in recent tournaments highlight its evolution into a respected global competitor.",
     "group": "F"
   },
   {
@@ -205,7 +204,7 @@
     "identifier": "KOR",
     "name": "South Korea",
     "flagCode": "kr",
-    "about": "AFC qualified team.",
+    "about": "South Korea, semifinalists in 2002, combines relentless work rate with growing technical quality. Regular World Cup participants, the Taegeuk Warriors remain Asia’s most experienced side on football’s biggest stage.",
     "group": "A"
   },
   {
@@ -213,7 +212,7 @@
     "identifier": "IRN",
     "name": "Iran",
     "flagCode": "ir",
-    "about": "AFC qualified team.",
+    "about": "Iran continues its dominance in Asian qualifying, known for defensive structure and tactical discipline. Consistent World Cup appearances underline the team’s stability and competitive strength within the AFC region.",
     "group": "G"
   },
   {
@@ -221,7 +220,7 @@
     "identifier": "JOR",
     "name": "Jordan",
     "flagCode": "jo",
-    "about": "AFC qualified team (first World Cup qualification).",
+    "about": "Jordan celebrates a historic first World Cup qualification, marking rapid football growth in the nation. Strong collective organization and defensive resilience helped secure one of Asia’s most inspiring qualification stories.",
     "group": "J"
   },
   {
@@ -229,7 +228,7 @@
     "identifier": "UZB",
     "name": "Uzbekistan",
     "flagCode": "uz",
-    "about": "AFC qualified team (first World Cup qualification).",
+    "about": "Uzbekistan reaches its first World Cup after years of near misses in Asian qualifying. Built on disciplined structure and emerging technical talent, the team represents Central Asia’s rise on the global football stage.",
     "group": "K"
   },
   {
@@ -237,7 +236,7 @@
     "identifier": "QAT",
     "name": "Qatar",
     "flagCode": "qa",
-    "about": "AFC qualified team.",
+    "about": "After hosting the 2022 World Cup, Qatar continues developing its football identity through academy investment and tactical organization. The national project focuses on long-term competitiveness at the international level.",
     "group": "B"
   },
   {
@@ -245,7 +244,7 @@
     "identifier": "KSA",
     "name": "Saudi Arabia",
     "flagCode": "sa",
-    "about": "AFC qualified team.",
+    "about": "Saudi Arabia remains a consistent Asian powerhouse, highlighted by famous World Cup upsets against global giants. Technical improvement and domestic league investment continue strengthening the Green Falcons’ competitiveness.",
     "group": "H"
   },
   {
@@ -253,7 +252,7 @@
     "identifier": "NZE",
     "name": "New Zealand",
     "flagCode": "nz",
-    "about": "OFC qualified team.",
+    "about": "Dominant within Oceania, New Zealand returns to the World Cup aiming to repeat its unbeaten 2010 campaign. Known for physical strength and aerial presence, the All Whites represent OFC’s strongest international contender.",
     "group": "G"
   },
   {
@@ -261,7 +260,7 @@
     "identifier": "ALG",
     "name": "Algeria",
     "flagCode": "dz",
-    "about": "CAF qualified team.",
+    "about": "Algeria combines technical flair with passionate support, highlighted by its memorable 2014 Round of 16 performance. The Desert Foxes remain one of Africa’s most talented sides with strong attacking identity.",
     "group": "J"
   },
   {
@@ -269,7 +268,7 @@
     "identifier": "CPV",
     "name": "Cape Verde",
     "flagCode": "cv",
-    "about": "CAF qualified team (debut).",
+    "about": "Cape Verde achieves a historic World Cup debut, reflecting remarkable progress for a small island nation. Known for athleticism and tactical discipline, the team symbolizes African football’s expanding competitive diversity.",
     "group": "H"
   },
   {
@@ -277,7 +276,7 @@
     "identifier": "CUW",
     "name": "Curaçao",
     "flagCode": "cw",
-    "about": "CONCACAF qualified team.",
+    "about": "Curaçao reaches a landmark qualification fueled by diaspora talent and technical development. The Caribbean nation continues rising in CONCACAF, blending European-trained players with a dynamic attacking approach.",
     "group": "E"
   },
   {
@@ -285,7 +284,7 @@
     "identifier": "EGY",
     "name": "Egypt",
     "flagCode": "eg",
-    "about": "CAF qualified team.",
+    "about": "Seven-time African champions, Egypt carries one of the continent’s richest football legacies. Known for passionate supporters and tactical discipline, the Pharaohs seek to translate continental success into World Cup impact.",
     "group": "G"
   },
   {
@@ -293,7 +292,7 @@
     "identifier": "GHA",
     "name": "Ghana",
     "flagCode": "gh",
-    "about": "CAF qualified team.",
+    "about": "Ghana remains one of Africa’s most competitive World Cup teams, famously reaching the 2010 quarterfinals. Combining athleticism with emerging youth talent, the Black Stars consistently challenge top international opponents.",
     "group": "L"
   },
   {
@@ -301,7 +300,7 @@
     "identifier": "CIV",
     "name": "Ivory Coast",
     "flagCode": "ci",
-    "about": "CAF qualified team.",
+    "about": "Ivory Coast blends physical strength with technical quality, continuing a legacy built by golden generations. Regular continental contenders, the Elephants aim to convert individual talent into collective World Cup success.",
     "group": "E"
   },
   {
@@ -309,7 +308,7 @@
     "identifier": "MAR",
     "name": "Morocco",
     "flagCode": "ma",
-    "about": "CAF qualified team.",
+    "about": "Morocco stunned the world by reaching the 2022 semifinals, the best result ever by an African nation. Combining tactical discipline with passionate support, the Atlas Lions now enter tournaments as genuine contenders.",
     "group": "C"
   },
   {
@@ -317,7 +316,7 @@
     "identifier": "SEN",
     "name": "Senegal",
     "flagCode": "sn",
-    "about": "CAF qualified team.",
+    "about": "African champions and consistent global competitors, Senegal is known for athletic intensity and defensive organization. Since its iconic 2002 debut run, the Lions of Teranga remain among Africa’s strongest teams.",
     "group": "I"
   },
   {
@@ -325,7 +324,7 @@
     "identifier": "ZAF",
     "name": "South Africa",
     "flagCode": "za",
-    "about": "CAF qualified team.",
+    "about": "Host of the historic 2010 World Cup, South Africa returns seeking renewed international relevance. Backed by strong domestic support and developing talent pathways, Bafana Bafana aims to rebuild continental prominence.",
     "group": "A"
   },
   {
@@ -333,7 +332,7 @@
     "identifier": "TUN",
     "name": "Tunisia",
     "flagCode": "tn",
-    "about": "CAF qualified team.",
+    "about": "Tunisia continues its record of consistent African qualifications, known for tactical discipline and defensive structure. Competitive performances against elite teams have reinforced its reputation as a difficult opponent.",
     "group": "F"
   }
 ]
