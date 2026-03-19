@@ -1,24 +1,36 @@
-export function CardGroup() {
-  const teams = [1,2,3,4]
+export type Group = {
+  id: string
+  name: string
+  teams: [{
+    code: string,
+    teamName: string
+  }]
+}
+
+interface ICardGroup {
+  group: Group
+}
+
+export function CardGroup({ group }: ICardGroup) {
   return(
     <div
       className='flex flex-col items-center gap-4'
     >
       <h2
         className='text-2xl font-bold'
-      >Grupo: A</h2>
+      >{group.name}</h2>
       <div
         className='flex'
       >
-        {teams.map(team => (
+        {group.teams.map(team => (
           <div
-            key={team}
+            key={team.code}
             className='flex flex-col items-center'
           >
             <span
-              className='fi fi-br text-7xl rounded-full'
+              className={`fi fi-${team.code} text-7xl rounded-full`}
             />
-            <h3>Time: {team}</h3>
+            <h3>{team.teamName}</h3>
           </div>
         ))}
       </div>   

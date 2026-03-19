@@ -1,0 +1,215 @@
+[
+  {
+    "id": "A-01",
+    "group": "A",
+    "datetime": "2026-06-11T16:00:00-05:00",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
+    "teams": {
+      "teamA": { "code": "mx", "name": "Mexico" },
+      "teamB": { "code": "za", "name": "South Africa" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "A-02",
+    "group": "A",
+    "datetime": "2026-06-11T20:00:00-05:00",
+    "stadium": "Estadio Akron",
+    "city": "Guadalajara",
+    "teams": {
+      "teamA": { "code": "kr", "name": "South Korea" },
+      "teamB": { "code": "playoff-d", "name": "Playoff D Winner" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+
+  {
+    "id": "B-01",
+    "group": "B",
+    "datetime": "2026-06-12T16:00:00-04:00",
+    "stadium": "BMO Field",
+    "city": "Toronto",
+    "teams": {
+      "teamA": { "code": "ca", "name": "Canada" },
+      "teamB": { "code": "playoff-a", "name": "Playoff A Winner" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "D-01",
+    "group": "D",
+    "datetime": "2026-06-12T22:00:00-07:00",
+    "stadium": "SoFi Stadium",
+    "city": "Los Angeles",
+    "teams": {
+      "teamA": { "code": "us", "name": "United States" },
+      "teamB": { "code": "py", "name": "Paraguay" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+
+  {
+    "id": "C-01",
+    "group": "C",
+    "datetime": "2026-06-13T17:00:00-04:00",
+    "stadium": "Gillette Stadium",
+    "city": "Boston",
+    "teams": {
+      "teamA": { "code": "ht", "name": "Haiti" },
+      "teamB": { "code": "gb-sct", "name": "Scotland" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "C-02",
+    "group": "C",
+    "datetime": "2026-06-13T16:00:00-04:00",
+    "stadium": "MetLife Stadium",
+    "city": "East Rutherford",
+    "teams": {
+      "teamA": { "code": "br", "name": "Brazil" },
+      "teamB": { "code": "ma", "name": "Morocco" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "D-02",
+    "group": "D",
+    "datetime": "2026-06-13T23:00:00-08:00",
+    "stadium": "BC Place",
+    "city": "Vancouver",
+    "teams": {
+      "teamA": { "code": "au", "name": "Australia" },
+      "teamB": { "code": "playoff-c", "name": "Playoff C Winner" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "B-02",
+    "group": "B",
+    "datetime": "2026-06-13T16:00:00-07:00",
+    "stadium": "Levi’s Stadium",
+    "city": "San Francisco",
+    "teams": {
+      "teamA": { "code": "qa", "name": "Qatar" },
+      "teamB": { "code": "ch", "name": "Switzerland" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+
+  {
+    "id": "E-01",
+    "group": "E",
+    "datetime": "2026-06-14T16:00:00-04:00",
+    "stadium": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "teams": {
+      "teamA": { "code": "ci", "name": "Ivory Coast" },
+      "teamB": { "code": "ec", "name": "Ecuador" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "E-02",
+    "group": "E",
+    "datetime": "2026-06-14T16:00:00-05:00",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "teams": {
+      "teamA": { "code": "de", "name": "Germany" },
+      "teamB": { "code": "cw", "name": "Curaçao" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "F-01",
+    "group": "F",
+    "datetime": "2026-06-14T16:00:00-06:00",
+    "stadium": "AT&T Stadium",
+    "city": "Dallas",
+    "teams": {
+      "teamA": { "code": "nl", "name": "Netherlands" },
+      "teamB": { "code": "jp", "name": "Japan" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "F-02",
+    "group": "F",
+    "datetime": "2026-06-14T22:00:00-05:00",
+    "stadium": "Estadio Monterrey",
+    "city": "Monterrey",
+    "teams": {
+      "teamA": { "code": "tn", "name": "Tunisia" },
+      "teamB": { "code": "playoff-b", "name": "Playoff B Winner" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+
+  {
+    "id": "H-01",
+    "group": "H",
+    "datetime": "2026-06-15T19:00:00-04:00",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami",
+    "teams": {
+      "teamA": { "code": "sa", "name": "Saudi Arabia" },
+      "teamB": { "code": "uy", "name": "Uruguay" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "G-01",
+    "group": "G",
+    "datetime": "2026-06-15T19:00:00-07:00",
+    "stadium": "Lumen Field",
+    "city": "Seattle",
+    "teams": {
+      "teamA": { "code": "be", "name": "Belgium" },
+      "teamB": { "code": "eg", "name": "Egypt" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+  {
+    "id": "G-02",
+    "group": "G",
+    "datetime": "2026-06-15T19:00:00-07:00",
+    "stadium": "SoFi Stadium",
+    "city": "Los Angeles",
+    "teams": {
+      "teamA": { "code": "ir", "name": "Iran" },
+      "teamB": { "code": "nz", "name": "New Zealand" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  },
+
+  {
+    "id": "I-01",
+    "group": "I",
+    "datetime": "2026-06-16T19:00:00-04:00",
+    "stadium": "MetLife Stadium",
+    "city": "East Rutherford",
+    "teams": {
+      "teamA": { "code": "fr", "name": "France" },
+      "teamB": { "code": "sn", "name": "Senegal" }
+    },
+    "status": "scheduled",
+    "score": { "teamA": null, "teamB": null }
+  }
+]
