@@ -5,14 +5,20 @@ import Matches from '@/data/matches.json'
 
 export default function MatchesPage() {
   return (
-    <div>
+    <div
+      className='h-svh flex'
+    >
       <Link
         href={'/'}
       >
         Voltar
       </Link>
 
-      <div>
+      <div
+        className='m-auto py-6
+          flex flex-wrap gap-6
+          justify-center'
+      >
         {Matches.map(Match => (
           <CardMatch
             key={Match.id}

@@ -16,7 +16,8 @@ export default function GroupsPage() {
       </Link>
 
       <div
-        className='m-auto flex flex-wrap gap-6 justify-center'
+        className='m-auto py-6 flex 
+          flex-wrap gap-6 justify-center'
       >
         {Groups.map(Group => (
           <CardGroup

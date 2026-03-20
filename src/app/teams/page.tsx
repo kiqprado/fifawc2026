@@ -13,7 +13,10 @@ export default function TeamsPage() {
         Voltar
       </Link>
 
-      <div className='m-auto flex flex-wrap justify-center gap-6'>
+      <div 
+        className='m-auto py-6 flex 
+          flex-wrap justify-center gap-6'
+      >
         {Teams.map(Team => (
           <CardTeam
             key={Team.id}

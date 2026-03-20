@@ -14,13 +14,16 @@ interface ICardGroup {
 export function CardGroup({ group }: ICardGroup) {
   return(
     <div
-      className='flex flex-col items-center gap-4'
+      className='w-136
+      px-4 py-2 flex flex-col gap-3 items-center
+      border border-zinc-700 rounded-lg
+      card-shadow'
     >
       <h2
         className='text-2xl font-bold'
       >{group.name}</h2>
       <div
-        className='flex'
+        className='flex gap-6 items-center'
       >
         {group.teams.map(team => (
           <div
