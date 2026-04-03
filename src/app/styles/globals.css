@@ -1,25 +1,89 @@
 @import "tailwindcss";
 @import "flag-icons/css/flag-icons.min.css";
 
-
+/* --------- CARD ---------- */
 .card-shadow {
   transition:
-    box-shadow 0.35s ease,
-    transform 0.25s ease,
-    filter 0.25s ease;
+    transform 0.3s ease,
+    filter 0.3 ease;
   box-shadow:
-    0 4px 8px -3px rgba(34, 211, 238, 0.18),
-    0 2px 4px -2px rgba(0, 0, 0, 0.6);
+    0 6px 12px -6px rgba(0,0,0,0.6),
+    0 2px 4px -2px rgba(0,0,0,0.8);
+}
+
+.card-shadow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+
+  background: linear-gradient(
+    135deg,
+    transparent 20%,
+    var(--primary),
+    var(--secondary),
+    transparent 80%
+  );
+
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+
+  opacity: 0.25;
+  transition: opacity 0.3s ease;
+}
+
+.card-shadow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 2px;
+  inset: -50%;
+  border-radius: inherit;
+
+  background: radial-gradient(
+    90deg,
+    circle,
+    var(--primary) 0%,
+    transparent 60%
+  );
+
+  opacity: 0.06;
+  filter: blur(60px);
+  transition: all 0.4s ease;
 }
 
 .card-shadow:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px) scale(1.02);
   box-shadow:
-    0 10px 20px -6px rgba(0, 0, 0, 0.7),
-    0 0 22px rgba(34, 211, 238, 0.35),
-    0 14px 32px -8px rgba(34, 211, 238, 0.45),
-    6px 10px 24px -12px rgba(34, 211, 238, 0.25),
-    -6px 10px 24px -12px rgba(34, 211, 238, 0.25);
+    0 12px 24px -8px rgba(0,0,0,0.8),
+    0 0 12px var(--primary),
+    0 0 24px var(--secondary);
+}
+
+.card-shadow:hover::before {
+  opacity: 0.9;
+}
+
+.card-shadow:hover::after {
+  opacity: 0.18;
+  transform: scale(1.2);
+  animation: energyFlow 2s linear infinite;
+}
+
+.neon-text {
+  color: var(--primary);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
+  text-shadow:
+    0 0 6px var(--primary),
+    0 0 16px var(--primary),
+    0 0 32px var(--secondary);
 }
 
 
@@ -54,4 +118,10 @@
 
 .scrollbar-dark::-webkit-scrollbar-corner {
   background: #09090b;
+}
+
+
+@keyframes energyFlow {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50%); }
 }

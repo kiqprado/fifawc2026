@@ -1,23 +1,24 @@
-import Link from 'next/link'
-
-import { CardGroup } from '../components/card-group'
-import { Group } from '../components/card-group'
+import { CardGroup, type Group } from '../components/card-group'
 import Groups from '@/data/groups.json'
+
+import { ButtonHome } from '../elements/button-home'
 
 export default function GroupsPage() {
   return (
     <div
-      className='h-svh w-full flex'
+      className='h-svh flex
+        overflow-x-hidden'
     >
-      <Link
+      <ButtonHome
         href={'/'}
       >
         Voltar
-      </Link>
+      </ButtonHome>
 
       <div
-        className='m-auto py-6 flex 
-          flex-wrap gap-6 justify-center'
+        className='m-auto flex gap-6
+          flex-wrap justify-center
+          py-12'
       >
         {Groups.map(Group => (
           <CardGroup

@@ -1,6 +1,5 @@
 import { FormattedDate, FormattedTimedZoneSP } from '../utils/timezone'
 
-
 type Team  ={
   code: string
   name: string
@@ -21,11 +20,13 @@ export type Match ={
 interface ICardMatch {
   match: Match
 }
+
 export function CardMatch({ match }: ICardMatch) {
   const { teamA, teamB } = match.teams
+
   return(
     <div
-      className='max-w-136 min-w-106
+      className='relative w-136
       px-4 py-2 flex flex-col gap-3
       border border-zinc-700 rounded-lg
       card-shadow'

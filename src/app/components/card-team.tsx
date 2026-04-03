@@ -4,6 +4,11 @@ export type Team = {
   group: string
   flagCode: string
   about: string
+  colors: {
+    primary: string,
+    secondary: string,
+    accent: string
+  }
 }
 
 interface ICardTeam {
@@ -13,15 +18,21 @@ interface ICardTeam {
 export function CardTeam({ team }: ICardTeam) {
   return (
     <div 
-      className='w-56 px-4 py-2 
+      className='relative w-66 px-4 pb-y-2
         flex flex-col gap-3 items-center
         border border-zinc-700 rounded-lg
-        card-shadow'
+        card-shadow overflow-hidden'
+      style={{
+        '--primary': team.colors.primary,
+        '--secondary': team.colors.secondary
+      } as React.CSSProperties}
     >
       <span
-        className={`fi fi-${team.flagCode} text-9xl rounded-lg`}
+        className={`fi fi-${team.flagCode} text-[202px] rounded-lg`}
       />
-      <h3>{team.name}</h3>
+      <h3
+        className='font-bold tracking-wider text-3xl neon-text'
+      >{team.name}</h3>
       <p className='text-justify h-36 overflow-y-auto mb-4 scrollbar-dark'>
         {team.about}
       </p>
