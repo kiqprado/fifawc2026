@@ -9,19 +9,23 @@ export function UseCardAnimation() {
     const ctx = gsap.context(() => {
       
       gsap.from('.card-item', {
-        y: 60,
+        y: 50,
         opacity: 0,
         filter: 'blur(8px)',
-        ease: 'power3.inOut',
-        stagger: 0.12
+        duration: 1,
+        ease: 'expo.out',
+        stagger: {
+          each: 0.1,
+          from: 'start'
+        }
       })
 
       gsap.from('.card-title', {
         opacity: 0,
         scale: 0.8,
-        duration: 0.6,
-        delay: 0.4,
-        stagger: 0.1,
+        duration: 0.8,
+        delay: 0.6,
+        stagger: 0.3,
         ease: 'back.inOut(1.7)'
       })
     }, containerCardRef)

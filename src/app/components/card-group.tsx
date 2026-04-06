@@ -1,12 +1,12 @@
-import { useGroupTheme } from '../utils/group-colors-set'
+import { useGroupTheme } from '../utils/colors-set'
 
 export type Group = {
   id: string
   name: string
-  teams: [{
+  teams:{
     code: string,
     teamName: string
-  }]
+  }[]
 }
 
 interface ICardGroup {
@@ -18,10 +18,10 @@ export function CardGroup({ group }: ICardGroup) {
 
   return(
     <div
-      className='relative w-136
-      px-4 py-2 flex flex-col gap-3 items-center
-      border border-zinc-700 rounded-lg
-      card-shadow'
+      className='card-base card-border card-group
+        relative w-136
+        px-4 py-2 flex flex-col gap-3 items-center
+        border border-zinc-700 rounded-lg'
       style={style}
     >
       <h2

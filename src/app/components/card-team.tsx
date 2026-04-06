@@ -18,10 +18,11 @@ interface ICardTeam {
 export function CardTeam({ team }: ICardTeam) {
   return (
     <div 
-      className='relative w-66 px-4 pb-y-2
+      className='card-base card-border card-team
+        relative w-66 px-4 pb-y-2
         flex flex-col gap-3 items-center
-        border border-zinc-700 rounded-lg
-        card-shadow overflow-hidden'
+        border border-zinc-800 rounded-xl
+        overflow-hidden'
       style={{
         '--primary': team.colors.primary,
         '--secondary': team.colors.secondary

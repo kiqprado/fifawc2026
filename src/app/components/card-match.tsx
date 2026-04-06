@@ -26,10 +26,15 @@ export function CardMatch({ match }: ICardMatch) {
 
   return(
     <div
-      className='relative w-136
-      px-4 py-2 flex flex-col gap-3
-      border border-zinc-700 rounded-lg
-      card-shadow'
+      className='
+        card-match card-base card-border
+        relative w-136
+        px-4 py-2 flex flex-col gap-3
+        border border-zinc-700 rounded-lg'
+      style={{
+        '--primary': '#60a5fa',
+        '--secondary': '#f87171'
+      } as React.CSSProperties}
     >
       <div
         className='flex justify-between'

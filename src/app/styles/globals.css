@@ -2,16 +2,18 @@
 @import "flag-icons/css/flag-icons.min.css";
 
 /* --------- CARD ---------- */
-.card-shadow {
+
+.card-base {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+
   transition:
-    transform 0.3s ease,
-    filter 0.3 ease;
-  box-shadow:
-    0 6px 12px -6px rgba(0,0,0,0.6),
-    0 2px 4px -2px rgba(0,0,0,0.8);
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease;
 }
 
-.card-shadow::before {
+.card-border::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -20,10 +22,8 @@
 
   background: linear-gradient(
     135deg,
-    transparent 20%,
     var(--primary),
-    var(--secondary),
-    transparent 80%
+    var(--secondary)
   );
 
   -webkit-mask:
@@ -33,48 +33,109 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
 
-  opacity: 0.25;
-  transition: opacity 0.3s ease;
+  opacity: 0.15;
+  transition: opacity 0.4s ease;
 }
 
-.card-shadow::after {
+.card-border::after {
   content: '';
   position: absolute;
-  top: 0;
-  left: -100%;
-  width: 200%;
-  height: 2px;
-  inset: -50%;
+  inset: -40%;
   border-radius: inherit;
 
   background: radial-gradient(
-    90deg,
     circle,
     var(--primary) 0%,
     transparent 60%
   );
 
-  opacity: 0.06;
-  filter: blur(60px);
-  transition: all 0.4s ease;
+  opacity: 0.04;
+  filter: blur(50px);
+  transition: all 0.5s ease;
 }
 
-.card-shadow:hover {
-  transform: translateY(-4px) scale(1.02);
+.card-team {
   box-shadow:
-    0 12px 24px -8px rgba(0,0,0,0.8),
-    0 0 12px var(--primary),
-    0 0 24px var(--secondary);
+    0 6px 12px -6px rgba(0,0,0,0.6),
+    0 2px 4px -2px rgba(0,0,0,0.8);
 }
 
-.card-shadow:hover::before {
-  opacity: 0.9;
+.card-team:hover {
+  transform: translateY(-6px) scale(1.025);
+
+  box-shadow:
+    0 12px 28px -10px rgba(0,0,0,0.9),
+    0 0 8px var(--primary),
+    0 0 18px var(--secondary);
 }
 
-.card-shadow:hover::after {
+.card-team:hover::before {
+  opacity: 0.85;
+}
+
+.card-team:hover::after {
+  opacity: 0.12;
+  transform: scale(1.1);
+}
+
+.card-group {
+  box-shadow:
+    0 4px 10px -6px rgba(0,0,0,0.6);
+}
+
+.card-group:hover {
+  transform: translateY(-4px) scale(1.015);
+
+  box-shadow:
+    0 8px 20px -8px rgba(0,0,0,0.8),
+    0 0 6px var(--primary);
+}
+
+.card-group::before {
+  opacity: 0.12;
+}
+
+.card-group:hover::before {
+  opacity: 0.6;
+}
+
+.card-group::after {
+  opacity: 0.02;
+}
+
+.card-group:hover::after {
+  opacity: 0.08;
+}
+
+.card-match {
+  box-shadow:
+    0 5px 12px -6px rgba(0,0,0,0.7);
+}
+
+.card-match:hover {
+  transform: translateY(-5px) scale(1.02);
+
+  box-shadow:
+    0 10px 24px -10px rgba(0,0,0,0.9),
+    0 0 6px var(--primary),
+    0 0 12px var(--secondary);
+}
+
+.card-match::before {
   opacity: 0.18;
-  transform: scale(1.2);
-  animation: energyFlow 2s linear infinite;
+}
+
+.card-match:hover::before {
+  opacity: 0.7;
+}
+
+.card-match::after {
+  opacity: 0.035;
+}
+
+.card-match:hover::after {
+  opacity: 0.1;
+  transform: scale(1.08);
 }
 
 .neon-text {
